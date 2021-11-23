@@ -225,7 +225,7 @@ void config_menu()
           init_vga(WHITE, 0x05);
           print_string("                 About                 ",WHITE,1);
           print_new_line();
-          print_string("Tupux kernel: Coded by Manuel Candil Baeza",WHITE,0x03);
+          print_string("Tupux kernel: Coded by someone and then an idiot named [REDACTED] came and did some edits then stole it",WHITE,0x03);
           keycode = get_input_keycode();
           break;
         case 0x04:
